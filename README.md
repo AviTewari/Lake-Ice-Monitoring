@@ -8,7 +8,4 @@ This repository provides the implementation (tensorflow) and dataset correspondi
  ## About
  Lake ice is a strong climate indicator and has been recognised as part of the Essential Climate Variables (ECV) by the Global Climate Observing System (GCOS). The dynamics of freezing and thawing, and possible shifts of freezing patterns over time, can help in understanding the local and global climate systems. This model intends to move towards a universal model for monitoring lake ice with freely available webcam data.
 
-## What this repo contains?
-
-## Steps to reproduce the experiment.
 
