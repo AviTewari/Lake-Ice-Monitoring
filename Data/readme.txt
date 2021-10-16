@@ -1,9 +1,11 @@
-Disclaimer: These images were downloaded from various internet sources. The copyright belongs to respective owners. The images are meant to be used only for research (non-commercial) purposes.
+## Disclaimer
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+These images were downloaded from various internet sources. The copyright belongs to respective owners. The images are meant to be used only for research (non-commercial) purposes.
 
-Folder structure:
 
+## Folder structure
+
+       $ git clone https://github.com/rishusiva/Pose-Network
 Lake
 ----->Winter
 ------------->Camera
