@@ -41,3 +41,12 @@ mask_ext= new_mask_ext
 mask_df = pd.DataFrame(dat, columns = ['name', 'patch_id', 'year', 'month', 'day', 'hour', 
                             'conc_0', 'conc_1', 'conc_2', 'conc_3', 'conc_4', 'conc_5', 'conc_6',  
                             'conc_land'])
+
+""" counts = mask_df.iloc[:,6:].sum()
+norm = counts.sum()
+probs = counts/norm*100
+
+plt.figure(figsize=(8,5))
+probs.plot(kind='bar')
+plt.ylabel('Fraction of Pixel Values (%)')
+plt.grid() """
