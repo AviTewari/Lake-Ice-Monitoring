@@ -2,6 +2,7 @@ from modules import *
 from image_preprocessing import *
 from mask_preprocessing import *
 
+IMG_SIZE = (256, 256)
 def read_image(image_name):
     image = tf.io.read_file(img_dir + image_name + img_ext)
     image = tf.image.decode_jpeg(image, channels=3)

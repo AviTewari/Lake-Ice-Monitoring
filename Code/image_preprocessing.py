@@ -2,6 +2,7 @@ from modules import *
 from mask_preprocessing import *
 from oversampling import *
 from read_images import *
+from image_augmentation import *
 
 class_max = mask_df.iloc[:,6:-1].idxmax(axis=1) #category of the most common class in the image. We will stratify our train test split by this
 class_max.value_counts()
