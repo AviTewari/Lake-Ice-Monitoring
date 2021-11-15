@@ -10,6 +10,8 @@ from PIL import Image
 import random
 from sklearn.model_selection import train_test_split
 import tensorflow_addons as tfa
+from keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, concatenate, Dropout
+from tensorflow.keras import Model
 
 # set the necessary directories
 img_dir = 'Data/Images'
