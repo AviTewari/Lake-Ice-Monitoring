@@ -29,7 +29,19 @@ The Canadian Ice Service produces weekly regional sea ice charts for ship safety
 
 There are two main data sources for this project: Sentinel-2 satellite images and Canadian Regional Ice Charts. These were used to generate images and masks, respectively.
 
+## 1.1 Sentinel-2 
 
+The Sentinel-2 mission is made up of a pair of satellites that image the globe roughly every 5 days. They capture 12 optical bands including the visible spectrum. Bands 3, 4, and 8 were used for this project, representing near infra-red, red and green wavelengths. Sentinelhub provides a python API for acquiring Sentinel-2 images.
+
+## 1.2 Canadian Regional Ice Charts
+
+Canadian Regional Ice Charts show geospatial sea ice concentrations for ship safety and environmental monitoring. They are produced weekly on Mondays by the Canadian Ice Service for five large regions:
+
+- Hudson Bay
+- Western Arctic
+- Eastern Arctic
+- Eastern Coast
+- Great Lakes
 
 
 
