@@ -19,9 +19,9 @@ Table of contents
 
 <!--ts-->
    * [Code/Resources](#Code/Resources)
-   * [Usage](#usage)
-      * [STDIN](#stdin)
-      * [Local files](#local-files)
+   * [1. Data Collection](#1. Data Collection)
+      * [1.1 Sentinel-2](#1.1 Sentinel-2)
+      * [1.2 Canadian Regional Ice Charts](#1.2 Canadian Regional Ice Charts)
       * [Remote files](#remote-files)
       * [Multiple files](#multiple-files)
       * [Combo](#combo)
