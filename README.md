@@ -17,23 +17,21 @@ The Canadian Ice Service produces weekly regional sea ice charts for ship safety
 Table of contents
 =================
 
-<!--ts-->
    * [Code/Resources](#Code/Resources)
-   * [Data Collection](#1.-Data-Collection)
+   * [Data Collection](#Data-Collection)
       * [Sentinel-2](#Sentinel-2)
       * [Canadian Regional Ice Charts](#Canadian-Regional-Ice-Charts)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-      * [Auto insert and update TOC](#auto-insert-and-update-toc)
-      * [GitHub token](#github-token)
-      * [TOC generation with Github Actions](#toc-generation-with-github-actions)
-   * [Tests](#tests)
-   * [Dependency](#dependency)
-   * [Docker](#docker)
-     * [Local](#local)
-     * [Public](#public)
-<!--te-->
+      * [Data Collection Workflow](#Data-Collection-Workflow)
+   * [Data Processing](#Data-Processing)
+      * [Class Definitions](#Class-Definitions)
+      * [Data Input Pipeline](##Data-Input-Pipeline)
+   * [Model Building](#Model-Building)
+      * [U-Net](##U-Net)
+      * [Model Definition](##Model-Definition)
+      * [Training and Predictions](#Training-and-Predictions)
+   * [](#)
+     * [](#)
+     * [](#)
 
 # Code/Resources
 
