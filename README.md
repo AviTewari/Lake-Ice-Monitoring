@@ -71,7 +71,45 @@ After slicing the region, an EO-Learn workflow was developed to aquire satellite
 |:--:|
 | *Image and mask pair generated through the EO-Learn workflow* |
 
+# 2 Data Processing
 
+## 2.1 Class Definitions
+
+In order to simplify analysis, the 31 SIGRID-3 classes shown in section 1.2 were binned into 8 classes broadly defined as:
+
+- 0: <10% ice
+- 1: 10-30% ice
+- 2: 30-50% ice
+- 3: 50-70% ice
+- 4: 70-90% ice
+- 5: 90-100% ice
+- 6: fast ice (thick ice that is 'fastened' to the coastline)
+- 7: land
+
+With these definitions, the pixel-wise distribution of classes across all 3,392 images in the dataset was calculated. There is a strong class imbalance, with open water, 90-100% ice, and land occupying most of the dataset.
+
+|<img src="/Images/class_dist.png" width="400" /> |
+|:--:|
+| *Pixel-wise class distribution over all images* |
+
+## 2.2 Data Input Pipeline
+
+Before being fed into the model for training, the following operations were performed on the dataset:
+
+- Image/mask pairs were split into training (80%) and validation (20%) sets
+    - The split was stratified based the most common class represented in the images
+- Within the training data, images with high amounts of under-represented pixels were over-sampled (eg. duplicated in the training set to increase their weight)
+    - This helped address the class imbalance in the dataset that would skew a model towards the over-represented classes
+- Random image augmentation:
+    - Random flip left-right
+    - Random flip up-down
+    - Random image rotation by +- 5 degrees (corners we mapped to black in the image and land in the mask)
+
+The result is a stream of image/mask pairs like this:
+
+|<img src="/Images/input_image_mask.png" width="600" /> |
+|:--:|
+| *Sample image/mask pair training data. Note the random image rotation.* |
 
 
 
