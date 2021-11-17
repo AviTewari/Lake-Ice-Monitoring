@@ -111,7 +111,33 @@ The result is a stream of image/mask pairs like this:
 |:--:|
 | *Sample image/mask pair training data. Note the random image rotation.* |
 
+# 3 Model Building
 
+The goal of the model was to automatically generate a sea ice chart based on a satellite image. This is an image segmentation problem, wherein a model is expected to predict a class for each pixel in an image. 
+
+## 3.1 U-Net
+
+A popular convolutional neural network architecture for image segmentation is the 'U-Net'. It consists of a contraction path (composed of successive convolution, ReLU activation, and max pooling operations) followed by an expansion path. In the expansion path, a combination of up-sampling and concatenation with high resolution images from the contraction path allows the network to localize features of the image at higher and higher resolution until each pixel of the image has a predicted class. A diagram of the basic architecture of the network is shown below.
+
+|<img src="/Images/U-Net.png" width="600" />  |
+|:--:|
+| *Base U-Net Architecture. Source: [https://arxiv.org/pdf/1505.04597.pdf](https://arxiv.org/pdf/1505.04597.pdf)* |
+
+## 3.2 Model Definition
+
+The model for this project is an adapted version of a U-NET from the Dstl Satellite Imagery Feature Detection Kaggle competition. That competition also aimed to classify pixels in satellite images, so this model architecture was expected to be good fit here too. See [here](https://www.kaggle.com/drn01z3/end-to-end-baseline-with-u-net-keras) for the original model writeup. The base model architecture was supplemented with dropout layers to help with over-fitting. A diagram of the final model architecture is shown below.
+
+<p float="left">
+  <img src="/Images/model-map.png" width="400" /> 
+</p>
+
+## 3.3 Training and Predictions
+
+The neural network above was trained for 100 epochs (where an epoch is a run through the entire training dataset). Plots of training/validation loss and mean IoU metric are shown below. IoU is also known as the [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index).
+
+|<img src="/Images/train-val.png" width="600" />   |
+|:--:|
+| *Model performance over training epochs* |
 
 
 
