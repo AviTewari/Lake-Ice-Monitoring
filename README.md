@@ -4,6 +4,7 @@ The Canadian Ice Service produces weekly regional sea ice charts for ship safety
 <p float="left">
   <img src="/Images/pred1.png" width="800" /> 
 </p>
+
 -  Collected 3392 satellite images of Hudson Bay sea ice in the Canadian Arctic from 2016-1-1 to 2018-7-31
 -  Generated sea ice concentrations masks for each image using Canadian Regional Ice Chart shapefiles
 -  Trained a Convolutional Neural Network (U-Net) to generate sea ice charts from satellite images based on eight different classes (seven levels of ice concentration and land)
