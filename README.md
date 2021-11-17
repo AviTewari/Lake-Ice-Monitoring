@@ -14,6 +14,27 @@ The Canadian Ice Service produces weekly regional sea ice charts for ship safety
 - Future work could also take advantage of additional satellite wavelength collection bands beyond the visible spectrum.
 - The dataset is available here: https://www.kaggle.com/alexandersylvester/arctic-sea-ice-image-masking 
 
+Table of contents
+=================
+
+<!--ts-->
+   * [Installation](#Code/Resources)
+   * [Usage](#usage)
+      * [STDIN](#stdin)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+      * [Auto insert and update TOC](#auto-insert-and-update-toc)
+      * [GitHub token](#github-token)
+      * [TOC generation with Github Actions](#toc-generation-with-github-actions)
+   * [Tests](#tests)
+   * [Dependency](#dependency)
+   * [Docker](#docker)
+     * [Local](#local)
+     * [Public](#public)
+<!--te-->
+
 # Code/Resources
 
 **Python Version:** 3.7.10  
