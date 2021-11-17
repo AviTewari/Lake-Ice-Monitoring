@@ -12,5 +12,15 @@ The Canadian Ice Service produces weekly regional sea ice charts for ship safety
     -  Model Mean IoU (intersection over union) score: 0.44
 - Found a strong class imbalance favoring thick solid ice due to complete freezing in the winter months. Future work should focus on collecting more data during the spring months when ice is thawing and there is a greater variety in ice concentration.
 - Future work could also take advantage of additional satellite wavelength collection bands beyond the visible spectrum.
-- The dataset is available here: https://www.kaggle.com/alexandersylvester/arctic-sea-ice-image-masking
- 
+- The dataset is available here: https://www.kaggle.com/alexandersylvester/arctic-sea-ice-image-masking 
+
+# Code/Resources
+
+**Python Version:** 3.7.10  
+**Libraries Used:** eolearn, sentinelhub, numpy, pandas, matplotlib, geopandas, sklearn, tensorflow, keras
+
+**Ice Chart Masks:** Canadian Ice Service, . 2009. Canadian Ice Service Arctic Regional Sea Ice Charts in SIGRID-3 Format, Version 1. Subset: Hudson Bay Regional Ice Charts. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi: https://doi.org/10.7265/N51V5BW9. Date Accessed: March 27, 2021.
+
+**Satellite Imagery:** Modified Copernicus Sentinel data 2021/Sentinel Hub
+
+**EO-Learn Satellite Image Collection and Cleaning:** https://eo-learn.readthedocs.io/en/latest/examples/land-cover-map/SI_LULC_pipeline.html 
