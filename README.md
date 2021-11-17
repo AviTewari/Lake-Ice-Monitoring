@@ -19,9 +19,9 @@ Table of contents
 
 <!--ts-->
    * [Code/Resources](#Code/Resources)
-   * [1. Data Collection](#1. Data Collection)
-      * [1.1 Sentinel-2](#1.1 Sentinel-2)
-      * [1.2 Canadian Regional Ice Charts](#1.2 Canadian Regional Ice Charts)
+   * [Data Collection](#11-Data-Collection)
+      * [Sentinel-2](#Sentinel-2)
+      * [Canadian Regional Ice Charts](#Canadian-Regional-Ice-Charts)
       * [Remote files](#remote-files)
       * [Multiple files](#multiple-files)
       * [Combo](#combo)
