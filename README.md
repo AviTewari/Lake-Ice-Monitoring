@@ -18,7 +18,7 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Installation](#Code/Resources)
+   * [Code/Resources](#Code/Resources)
    * [Usage](#usage)
       * [STDIN](#stdin)
       * [Local files](#local-files)
