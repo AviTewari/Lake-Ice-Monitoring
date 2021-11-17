@@ -179,9 +179,26 @@ A series of validation data images, true masks, and predicted masks are shown be
   <img src="/Images/pred10.png" width="600" />
 </p>
 
+## Installation and Quick Start
+To use the repo and run inferences, please follow the guidelines below
 
+- Cloning the Repository: 
 
+        $ git clone https://github.com/AviTewari/Lake-Ice-Monitoring.git
+        
+- Entering the directory: 
 
+        $ cd Lake-Ice-Monitoring/
+        
+- Setting up the Python Environment with dependencies:
+
+        $ pip install -r requirements.txt
+
+- Running the file for inference:
+
+        $ python3 demo/ice_masking.py
+
+**Note**: Is is advisable to use a GPU for running the inferences since performing segmentation on images with a heavy UNET architecture is expensive.
 
 
 
