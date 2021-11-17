@@ -19,7 +19,7 @@ Table of contents
 
 <!--ts-->
    * [Code/Resources](#Code/Resources)
-   * [Data Collection](#1.1-Data-Collection)
+   * [Data Collection](#1.-Data-Collection)
       * [Sentinel-2](#Sentinel-2)
       * [Canadian Regional Ice Charts](#Canadian-Regional-Ice-Charts)
       * [Remote files](#remote-files)
