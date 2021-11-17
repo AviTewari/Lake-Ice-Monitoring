@@ -139,7 +139,26 @@ The neural network above was trained for 100 epochs (where an epoch is a run thr
 |:--:|
 | *Model performance over training epochs* |
 
+The lowest validation data loss is achieved after roughly 50 epochs, after which the model begins to over-train. The model weights at this 'optimal' point were saved and used for the final model. A confusion matrix with these weights is below. The model is very good at preicting open water and land, and somewhat poorer at predicting the intermediate ice concentrations (10-90%). This could almost certainly be improved by collecting more images with these intermediate ice concentrations, which would be best achieved by focusing data collection on the springtime/early summer months when the ice is thawing.
 
+|<img src="/Images/confusion_matrix.png" width="600" />   |
+|:--:|
+| *Final model confusion matrix for validation data* |
+
+A series of validation data images, true masks, and predicted masks are shown below. The class imbalance of the dataset is apparent here, with land and solid ice dominating many of the images. Nevertheless the model is able to provide a good prediction of localized ice concentration in many cases. It is also interesting to note that the model provides finer detail than the published ice charts. With additional training data, perhaps algorith such as this could be used to develop finer-detailed ice charts than are curently available. 
+
+<p float="left">
+  <img src="/Images/pred1.png" width="600" /> 
+  <img src="/Images/pred2.png" width="600" />
+  <img src="/Images/pred3.png" width="600" />
+  <img src="/Images/pred4.png" width="600" />
+  <img src="/Images/pred5.png" width="600" />
+  <img src="/Images/pred6.png" width="600" />
+  <img src="/Images/pred7.png" width="600" />
+  <img src="/Images/pred8.png" width="600" />
+  <img src="/Images/pred9.png" width="600" />
+  <img src="/Images/pred10.png" width="600" />
+</p>
 
 
 
