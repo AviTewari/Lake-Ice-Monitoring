@@ -29,9 +29,7 @@ Table of contents
       * [U-Net](##U-Net)
       * [Model Definition](##Model-Definition)
       * [Training and Predictions](#Training-and-Predictions)
-   * [](#)
-     * [](#)
-     * [](#)
+   * [Installation and Quick Start](#Installation-and-Quick-Start)
 
 # Code/Resources
 
@@ -179,7 +177,7 @@ A series of validation data images, true masks, and predicted masks are shown be
   <img src="/Images/pred10.png" width="600" />
 </p>
 
-## Installation and Quick Start
+# Installation and Quick Start
 To use the repo and run inferences, please follow the guidelines below
 
 - Cloning the Repository: 
