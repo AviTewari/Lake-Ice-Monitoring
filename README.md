@@ -24,3 +24,51 @@ The Canadian Ice Service produces weekly regional sea ice charts for ship safety
 **Satellite Imagery:** Modified Copernicus Sentinel data 2021/Sentinel Hub
 
 **EO-Learn Satellite Image Collection and Cleaning:** https://eo-learn.readthedocs.io/en/latest/examples/land-cover-map/SI_LULC_pipeline.html 
+
+# 1. Data Collection
+
+There are two main data sources for this project: Sentinel-2 satellite images and Canadian Regional Ice Charts. These were used to generate images and masks, respectively.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
