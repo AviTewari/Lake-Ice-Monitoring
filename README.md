@@ -239,7 +239,7 @@ Avi Tiwari
 Swetha Chepuri
 
 <p align="center">
-<img src = "https://avatars.githubusercontent.com/u/71805515?v=4"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://media-exp1.licdn.com/dms/image/D5635AQElDdnlP8vRDQ/profile-framedphoto-shrink_800_800/0/1625927695239?e=1637424000&v=beta&t=WBthnDwBXONUR66RPVSWZY2l4o9DFMwGIObqTvGf_4E"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
 <a href = "https://github.com/swethachepuri777"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
